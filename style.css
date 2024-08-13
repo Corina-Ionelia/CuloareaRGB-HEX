@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background-color: #127272;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  transition: background-color 2.5s ease;
+}
+
+.color-panel {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  animation-durations: 100ms;
+}
+
+.color {
+  margin-bottom: 10px;
+}
+
+.color span {
+  font-weight: bold;
+}
+
+#btn-change {
+  color: #fff;
+  background-color: #003;
+  padding: 15px 20px;
+  border-radius: 7px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+#btn-change:active {
+  transform: scale(0.95);
+  background-color: #028;
+  border-radius: 10px;
+}
